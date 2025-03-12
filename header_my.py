@@ -5,12 +5,12 @@ first_num = random.randint(55, 62)
 third_num = random.randint(0, 3200)
 fourth_num = random.randint(0, 140)
 
-dev_id = 'DF5D5AF8-E9B6-4040-82C7-EA7384D0A016'
+dev_id = 'xxx'
 # 基础的头信息
 def get_header():
     # 浏览器复制的请求头，对应着小号信息，20190703-21:25
     r_h = b'''
-    Cookie: buvid3=CD3256C4-1351-43A2-98CC-88E12F177A6E40768infoc; LIVE_BUVID=AUTO4715623865079860; sid=i1w7ujpe; DedeUserID=440237330; DedeUserID__ckMd5=4f6573ba8b1afb25; SESSDATA=e816c21a%2C1564978587%2Cbe6fdc71; bili_jct=ea4f385dbad9ab257970aa2d35914653; CURRENT_FNVAL=16; stardustvideo=1
+    Cookie: buvid3=xxx
     '''
     headers = headers_raw_to_dict(r_h)
     headers[b'Content-Type'] = b'application/x-www-form-urlencoded; charset=UTF-8'
