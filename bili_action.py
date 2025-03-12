@@ -52,10 +52,10 @@ def action_follow(fid, act):
 
 # 发私信, dev_id在header中定义
 url_sendmsg = 'https://api.vc.bilibili.com/web_im/v1/web_im/send_msg'
-msg_content = '{"content":"你好，我是卖正品Macbook的，希望拉点客户，有需求的话，可以来我店里看看电脑，因为不用交税，国行价格至少便宜一千，绝对保证正品，非翻新、非二手！！！"}'
+msg_content = '{"content":"你好，"}'
 time.time()
 form_data_msg = {
-        'msg[sender_uid]': 440237330,
+        'msg[sender_uid]': xxx,
         'msg[receiver_id]': 10036266,
         'msg[receiver_type]': 1,
         'msg[msg_type]': 1,
